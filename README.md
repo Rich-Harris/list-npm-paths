@@ -62,8 +62,9 @@ var requirejs = require( 'requirejs' );
 var lnp = require( 'list-npm-paths' ).sync;
 
 requirejs.optimize({
+	baseUrl: 'src/js',
 	name: 'main',
-	out: 'main.js',
+	out: 'build/main.js',
 	paths: lnp()
 });
 ```
