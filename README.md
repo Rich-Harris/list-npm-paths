@@ -59,7 +59,7 @@ lnp({
 
 ```js
 var requirejs = require( 'requirejs' );
-var lnp = require( list-npm-paths' ).sync;
+var lnp = require( 'list-npm-paths' ).sync;
 
 requirejs.optimize({
 	name: 'main',
