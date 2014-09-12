@@ -12,7 +12,7 @@ npm i -D list-npm-paths   # i is short for install, -D for --save-dev
 ## Usage
 
 ```js
-var lnp = require( list-npm-paths' ).sync;
+var lnp = require( 'list-npm-paths' ).sync;  // note the `.sync` (see below).
 var paths = lnp();
 ```
 
